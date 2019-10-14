@@ -1,5 +1,10 @@
 import React from "react";
-
+import "./styles.css";
+import Post from "../Post";
 export default function PostList() {
-  return <h1>PostList</h1>;
+  return (
+    <div className="containerPostList">
+      <Post />
+    </div>
+  );
 }

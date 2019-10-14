@@ -1,0 +1,6 @@
+.containerPostList {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  margin: 10px 200px;
+}

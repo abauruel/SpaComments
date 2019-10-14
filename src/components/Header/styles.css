@@ -1,0 +1,16 @@
+.containerHeader {
+  background: #4a90e2;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerHeader h1 {
+  margin-left: 30px;
+  color: #fff;
+}
+.containerHeader h3 {
+  margin-right: 30px;
+  color: #fff;
+}

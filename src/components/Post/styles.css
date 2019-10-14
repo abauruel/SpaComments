@@ -1,0 +1,21 @@
+.contentPosts {
+}
+hr {
+  border: 1px solid #ddd;
+  margin: 20px;
+}
+.comments {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 20px;
+  padding: 5px;
+}
+.comments img {
+  margin-right: 10px;
+}
+.comments h3 {
+  background: #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+  padding: 10px;
+}
