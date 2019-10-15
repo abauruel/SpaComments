@@ -1,19 +1,41 @@
 .contentPosts {
+  padding: 5px;
 }
 hr {
   border: 1px solid #ddd;
   margin: 20px;
 }
+.contentPosts img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  border: 1px solid #ddd;
+  margin: 10px;
+}
+.contentPosts p {
+  margin: 5px;
+}
+.containerPostsignature {
+  display: flex;
+  flex-direction: row;
+}
+.containerAuthor {
+  margin: 10px;
+}
+.containerAuthor small {
+  color: rgb(190, 190, 190);
+  font-weight: bold;
+}
+
 .comments {
   display: flex;
   flex-direction: row;
-  margin: 10px 20px;
-  padding: 5px;
 }
 .comments img {
   margin-right: 10px;
 }
-.comments h3 {
+.comments p {
+  flex: 1;
   background: #ddd;
   border-radius: 4px;
   margin-right: 10px;
